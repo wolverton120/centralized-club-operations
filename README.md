@@ -13,3 +13,6 @@ In order to register/login and access the teacher-side features, you’ll need a
 Although the app is fully functional for all the features it provides, it was developed with a single club in mind. Hence, the entire app uses a single database. I might try to implement some kind of "create club" function in the future, which will incorporate separate databases for each set of teachers and students, but with the main purpose of this project completed, I’m not really sure.  
 
 This app relies on Google's Firebase services for its online user authentication and database storage. If something breaks somewhere in the future, it's probably due to them. Do let me know if that happens. :3
+
+## License 
+This project is licensed under the [MIT License.](https://github.com/wolverton120/centralized-club-operations/blob/master/LICENSE)
