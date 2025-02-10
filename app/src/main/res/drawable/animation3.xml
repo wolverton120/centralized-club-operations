@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/background13"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/background10"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/background11"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/background15"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/background14"
+        android:duration="4000"/>
+    <item android:drawable="@drawable/background16"
+        android:duration="4000"/>
+
+</animation-list>

@@ -1,0 +1,105 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/teacherbg5">
+
+
+    <TextView
+        android:id="@+id/manageEventText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monoid"
+        android:text="MANAGE EVENT"
+        android:textColor="@color/magenta"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+
+    <Button
+        android:id="@+id/addEventButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/monoid"
+        android:text="Add Event"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/manageEventText"
+        app:rippleColor="@color/magenta"
+        app:strokeColor="@color/magenta"
+        app:strokeWidth="5dp" />
+
+
+    <Button
+        android:id="@+id/editEventButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/monoid"
+        android:text="Edit Event"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addEventButton"
+        app:rippleColor="@color/magenta"
+        app:strokeColor="@color/magenta"
+        app:strokeWidth="5dp" />
+
+
+    <Button
+        android:id="@+id/removeEventButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/monoid"
+        android:text="Remove Event"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editEventButton"
+        app:rippleColor="@color/magenta"
+        app:strokeColor="@color/magenta"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/checkEventAttendanceButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/monoid"
+        android:text="Check Event Attendance"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/removeEventButton"
+        app:rippleColor="@color/magenta"
+        app:strokeColor="@color/magenta"
+        app:strokeWidth="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

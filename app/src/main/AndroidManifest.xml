@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/clubappicon2"
+        android:label="Centralized Club Operations (CCO)"
+        android:roundIcon="@drawable/clubappicon2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Clubapp"
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+        <activity
+            android:name=".TeacherProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectEventToCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveAttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentAttendEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPortalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeaveMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentPortalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditStudentProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditSpecificStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditStudentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditSpecificNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditSpecificEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentUpcomingEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackSubmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentlist"
+            android:exported="false" />
+        <activity
+            android:name=".BrowseGalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentprofile"
+            android:exported="false" />
+        <activity
+            android:name=".clubgallery"
+            android:exported="false" />
+        <activity
+            android:name=".studentnotice"
+            android:exported="false" />
+        <activity
+            android:name=".notice_submission"
+            android:exported="false" />
+        <activity
+            android:name=".teacherprofile"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_manage"
+            android:exported="false" />
+        <activity
+            android:name=".teacherlogin2"
+            android:exported="false" />
+        <activity
+            android:name=".teacherwindow"
+            android:exported="false" />
+        <activity
+            android:name=".studentwindow"
+            android:exported="false" />
+        <activity
+            android:name=".studentlogin"
+            android:exported="false" />
+        <activity
+            android:name=".studentpanel"
+            android:exported="false" />
+        <activity
+            android:name=".teacherpanel"
+            android:exported="false" />
+        <activity
+            android:name=".studentregister"
+            android:exported="false" />
+        <activity
+            android:name=".teacherresgister"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

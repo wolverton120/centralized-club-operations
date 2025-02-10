@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/newteacherbg2">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Content"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/submitterEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submitter" />
+
+    <Button
+        android:id="@+id/saveButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="127dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="145dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/monoid"
+        android:text="Save"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/magenta"
+        app:strokeColor="@color/magenta"
+        app:strokeWidth="5dp" />
+
+</LinearLayout>

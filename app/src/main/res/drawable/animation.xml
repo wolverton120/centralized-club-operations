@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/grediant1"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/grediant2"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/grediant3"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/grediant4"
+        android:duration="2000"/>
+    <item android:drawable="@drawable/grediant5"
+        android:duration="2000"/>
+
+</animation-list>

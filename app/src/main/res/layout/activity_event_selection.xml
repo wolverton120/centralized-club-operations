@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/studentbg7"
+    android:fitsSystemWindows="true"
+    tools:context=".EventSelectionActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/sourgummy"
+        android:text="Choose an Event Option"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/eventListButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Event List"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:rippleColor="@color/blue"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/attendEventButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Attend Event"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eventListButton"
+        app:rippleColor="@color/blue"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/removeAttendanceButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="252dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Remove Attendance"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/attendEventButton"
+        app:rippleColor="@color/blue"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

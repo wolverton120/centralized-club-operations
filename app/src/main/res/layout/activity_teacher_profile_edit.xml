@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/newteacherbg2">
+
+    <EditText
+        android:id="@+id/teacherNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/teacherEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/teacherDesignationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Designation"
+        android:inputType="text" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/monoid"
+        android:textColor="@color/lime"
+        app:rippleColor="@color/magenta"
+        app:strokeColor="@color/magenta"
+        app:strokeWidth="5dp"
+        android:id="@+id/saveChangesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
+

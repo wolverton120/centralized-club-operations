@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/studentbg7"
+    android:fitsSystemWindows="true"
+    tools:context=".StudentAttendEventActivity">
+
+    <TextView
+        android:id="@+id/textViewAttendHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/sourgummy"
+        android:text="Select Event to Attend"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_background"
+        app:cardCornerRadius="20dp"
+        android:elevation="6dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewAttendHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/selectEventButton"
+        app:layout_constraintVertical_weight="0.85"
+        android:layout_margin="16dp"
+        android:padding="8dp">
+
+        <ListView
+            android:id="@+id/attendEventsListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"
+            android:padding="8dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/selectEventButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="SELECT"
+        android:textColor="@color/lime"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/disclaimerTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/blue"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/disclaimerTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_background"
+        android:fontFamily="@font/monoid"
+        android:padding="12dp"
+        android:text="Disclaimer: If you've updated your profile name/id after selecting to attend an event, kindly do it again."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

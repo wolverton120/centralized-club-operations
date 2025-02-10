@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/animation6mw">
+
+    <Button
+        android:id="@+id/buttonteacher"
+        android:layout_width="158dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        android:fontFamily="@font/monoid"
+        android:text="TEACHER"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp"
+        app:icon="@drawable/card_membership_24dp_5f6368_fill0_wght400_grad0_opsz24"
+        app:iconTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toTopOf="@+id/buttonstudent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/design_default_color_error"
+        app:strokeColor="@color/design_default_color_error"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="568dp"
+        android:fontFamily="@font/sourgummy"
+        android:text="Welcome to CCO!"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="58dp"
+        android:fontFamily="@font/sourgummy"
+        android:text="Are you a teacher or\n          a student?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonteacher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/buttonstudent"
+        android:layout_width="158dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/monoid"
+        android:text="STUDENT"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp"
+        app:icon="@drawable/menu_book_24dp_5f6368_fill0_wght400_grad0_opsz24"
+        app:iconTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/design_default_color_error"
+        app:strokeColor="@color/design_default_color_error"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/button_about_dev"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/monoid"
+        android:text="About\nthe Dev"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/design_default_color_error"
+        app:strokeColor="@color/design_default_color_error"
+        app:strokeWidth="5dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
