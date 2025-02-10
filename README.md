@@ -4,7 +4,7 @@ Centralized Club Operations (CCO) is a fully-fledged club management system desi
 This project was developed as part of our course requirement. The requirements and scope of this project kept changing and expanding throughout the six months of the semester, and this is the final version we presented in front of our faculty.  
 
 ## How to use?
-You can either clone the repo in Android Studio by going to **File → New → Project from Version Control → copy and paste the repo URL** or [**download the pre-built app from here**. ](https://github.com/wolverton120/centralized-club-operations/blob/master/app/release/CCO.apk)
+You can either clone the repo in Android Studio by going to **File → New → Project from Version Control → copy and paste the repo URL** or [**download the pre-built app from here**. ](https://github.com/wolverton120/centralized-club-operations/blob/master/app/release/CCO.apk) You'd need an android device in order to run the app.
 
 ## Teacher Access 
 In order to register/login and access the teacher-side features, you’ll need a teacher ID, which is set to **123456** for now. 
